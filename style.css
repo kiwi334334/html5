@@ -1,7 +1,3 @@
-.aclass{
-    padding-top: 10px;
-    border-width: 10px;
-}
 #manubar{
     padding: 0;
     position: absolute;
@@ -11,6 +7,16 @@
     height: 10vh;
     transition-delay: 3s;
     transition: color 1s, width 1s, height 1s;
+}
+.humanclass{
+    left:0%;
+    transition: left 5s;
+}
+#btn{
+
+}
+humanclass:hover{
+    left:110%;
 }
 #manubar:hover{
     color:transparent;
